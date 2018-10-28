@@ -13,7 +13,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "ANDROID_HOME=C:/FTC1819 ./gradlew assembleDebug ; ./gradlew installDebug",
+            "command": "ANDROID_HOME=C:/FTC1819 ./gradlew assembleDebug ; ANDROID_HOME=C:/FTC1819 ./gradlew installDebug",
             "group": "build",
             "problemMatcher": []
         }
