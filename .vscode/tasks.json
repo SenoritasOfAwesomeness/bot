@@ -6,14 +6,14 @@
         {
             "label": "build-jacob",
             "type": "shell",
-            "command": "ANDROID_HOME=/usr/local/share/android-sdk ./gradlew build",
+            "command": "ANDROID_HOME=/usr/local/share/android-sdk ./gradlew assembleDebug ; ANDROID_HOME=/usr/local/share/android-sdk ./gradlew installDebug",
             "group": "build",
             "problemMatcher": []
         },
         {
             "label": "build",
             "type": "shell",
-            "command": "ANDROID_HOME=C:/FTC1819 gradlew.bat build",
+            "command": "ANDROID_HOME=C:/FTC1819 ./gradlew assembleDebug ; ./gradlew installDebug",
             "group": "build",
             "problemMatcher": []
         }
